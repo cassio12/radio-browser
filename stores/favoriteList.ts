@@ -15,7 +15,6 @@ export const useFavoriteStore = defineStore("favorite", {
       if (!exists) {
         this.stations.push(station);
       }
-      console.log(station);
     },
     removeStation(id: string) {
       this.stations = [
