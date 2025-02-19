@@ -1,75 +1,38 @@
-# Nuxt Minimal Starter
+# Radio Browser
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+O projeto consiste em uma lista de estações de radio onde você pode selecionar as estações de radio e ouvir musicas de diverços generos.
 
-## Setup
+## Tecnologias Utilizadas
 
-Make sure to install dependencies:
+Para esse projeto foi utilizado as tecnologias:
 
-```bash
-# npm
-npm install
+Linguagem de programação: TypeScript
 
-# pnpm
-pnpm install
+Framework: Nuxt e Tailwind
 
-# yarn
-yarn install
+Bibliotecas adicionais: nuxt icon, pinia e dexie
 
-# bun
-bun install
-```
+## Instalação e Uso
+### Requisitos
 
-## Development Server
+Requisitos necessários: Node.js
 
-Start the development server on `http://localhost:3000`:
+### Passos para Instalação
+1. Clone o repositório:
+   ```bash
+   https://github.com/cassio12/radio-browser.git
 
-```bash
-# npm
-npm run dev
+2. Acesse o diretório do projeto:
+   ```bash
+    cd nome-do-projeto
 
-# pnpm
-pnpm dev
+3. Instale as dependencias:
+   ```bash
+   npm install
+   
+4. Executa o projeto:
+   ```bash
+   npm run dev
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Desafio de Coodesh
+Este projeto foi desenvolvido como parte de um desafio proposto pela Coodesh.
